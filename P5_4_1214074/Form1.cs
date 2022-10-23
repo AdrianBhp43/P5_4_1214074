@@ -107,6 +107,8 @@ namespace P5_4_1214074
             }
         }
 
+        // Button Selesai
+
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
