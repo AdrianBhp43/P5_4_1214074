@@ -97,12 +97,12 @@ namespace P5_4_1214074
             else
             {
                 MessageBox.Show
-                ("Nama\t\t: " + tbNama.Text +
-                "\nJenis Kelamin\t: " + cLBGender.Text +
-                "\nTanggal Lahir\t: " + dateTimeBirth.Text +
-                "\nPilihan Kelas\t: " + Course +
-                "\nPilihan Jadwal\t: " + Date,
-                "Informasi Pendaftaran",
+                ("Name\t\t: " + tbNama.Text +
+                "\nGender\t: " + cLBGender.Text +
+                "\nDate of Birth\t: " + dateTimeBirth.Text +
+                "\nCourse List \t: " + Course +
+                "\nChoose Date\t: " + Date,
+                "Registration Form",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
