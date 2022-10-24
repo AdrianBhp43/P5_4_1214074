@@ -97,11 +97,11 @@ namespace P5_4_1214074
             else
             {
                 MessageBox.Show
-                ("Name\t\t: " + tbNama.Text +
-                "\nGender\t: " + cLBGender.Text +
-                "\nDate of Birth\t: " + dateTimeBirth.Text +
-                "\nCourse List \t: " + Course +
-                "\nChoose Date\t: " + Date,
+                ("Name : " + tbNama.Text +
+                "\nGender : " + cLBGender.Text +
+                "\nDate of Birth : " + dateTimeBirth.Text +
+                "\nCourse List : " + Course +
+                "\nChoose Date : " + Date,
                 "Registration Form",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
